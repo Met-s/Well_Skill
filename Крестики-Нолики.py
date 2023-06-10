@@ -1,7 +1,7 @@
 print("*" * 10, "Крестики-Нолики", "*" * 10)
 board = list(range(1,10))
-pleyr1 = input("Введите имя: ")
-pleyr2 = input("Введите имя: ")
+pleyr1 = input("Введите имя первого игрока: ")
+pleyr2 = input("Введите имя втрого игрока: ")
 def draw_board(board):
     print("-" * 13)
     for i in range(3):
